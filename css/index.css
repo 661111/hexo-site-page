@@ -10344,11 +10344,6 @@ center#name-container {
     justify-content: space-between
 }
 
-#body-wrap.error .aside-list .aside-list-item {
-    padding: .5rem 0;
-    width: 49%
-}
-
 #body-wrap.error .aside-list .aside-list-item img {
     width: 100%;
     object-fit: cover;
@@ -10387,6 +10382,14 @@ center#name-container {
     background: var(--heo-card-bg)!important
 }
 
+#body-wrap.error .aside-list .aside-list-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
 /* 首页设置 */
 /* 由苏晓河进行编写以及调整 */
 /* 时间：2025年2月4日 */
