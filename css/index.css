@@ -8193,6 +8193,21 @@ blockquote.pullquote.right {
     --june-copyright-bg: #323335;
     --june-border: #c8c8c8
 }
+:root {
+    --mj-white: #fff;
+    --mj-card-bg: rgba(255, 255, 255, 0.67);
+    --mj-theme: #128adadb;
+    --mj-secondbg: #ededed;
+    --mj-card-border: #e3e8f7;
+    --style-border: 2px solid rgba(0, 255, 255, 0.6);
+    --anchor-border: 1px solid rgba(21, 158, 208, 0.8);
+    --style-hover-border: 2px solid var(--mj-theme)
+}
+
+[data-theme=dark] {
+    --mj-card-bg: rgba(0, 0, 0, 0.6);
+    --style-border: 2px solid rgba(56, 211, 203, 0.8)
+}
 /* 颜色 */
 :root {
     --anzhiyu-theme-op: #4259ef23;
@@ -11045,15 +11060,12 @@ center#name-container {
 }
 
 .layout #recent-posts #catalog-bar .catalog-shouye-item {
-    margin-right: 3px;
+    margin-right: 10px;
 }
 
 .layout #recent-posts #catalog-bar #home-catalog-item a {
     background: #00c4b6f1;
     color: #fff !important;
-}
-
-.catalog-list-item a {
     margin: 0 .2em;
     padding: .2em .4em .3em;
     font-weight: 700;
