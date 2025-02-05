@@ -11007,6 +11007,9 @@ center#name-container {
 #recent-posts>.recent-post-item .post_cover img.post_bg:hover {
     transform: none
 }
+.category-bar-group {
+    justify-content: space-between;
+}
 /* 功能性调整 */
 /* 由苏晓河进行编写以及调整 */
 /* 时间：2025年2月4日 */
