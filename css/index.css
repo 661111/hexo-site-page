@@ -10071,76 +10071,6 @@ a.categoryButton:hover {
     border-radius: 12px;
     transform: none;
 }
-/* 首页说说内置 */
-#main_top {
-    z-index: 1;
-    max-width: 1300px;
-    margin: 0px auto 10px;
-    width: 100%;
-}
-
-@media screen and (max-width: 768px) {
-    div#main_top {
-        padding: 10px 6px 20px;
-        margin: 0 0 -10px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-}
-
-#bbTimeList {
-    width: 100%;
-    min-height: 50px;
-    color: var(--june-fontcolor);
-    padding: .5rem 1rem;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    font-weight: 700;
-    border: var(--style-border);
-    border-radius: 10px;
-    box-shadow: var(--june-shadow-lightblack);
-}
-
-#bbtalk {
-    width: 90%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-#bber-talk {
-    width: 100%;
-    height: 25px;
-    line-height: 25px;
-    display: flex;
-    flex-direction: column;
-}
-
-.bber-logo {
-    font-size: 1.5rem !important;
-    line-height: 22px;
-    transition: all 0.3s ease 0s;
-}
-
-#bber-talk .li-style {
-    width: 100%;
-    max-width: 100%;
-    height: 25px;
-    text-align: center;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    transition: 0.3s;
-    font-weight: 700;
-    margin: auto;
-    cursor: pointer;
-    white-space: nowrap;
-}
-
-#bbTimeList:hover {
-    border: var(--style-border-hover);
-    box-shadow: var(--june-shadow-main);
-}
 /* 引入式兼容模式 */
 /* 由苏晓河进行编写以及调整 */
 /* 时间：2025年2月5日 */
@@ -10706,23 +10636,7 @@ a.categoryButton:hover {
     }
 }
 /* 2.首页文章卡片隐藏简介 */
-#recent-posts>.recent-post-item:hover .recent-post-info .content {
-    opacity: 1;
-    line-height: 1.5;
-    transition: all .3s
-}
 
-#recent-posts>.recent-post-item:hover .recent-post-info {
-    top: 0;
-    transition: all .3s
-}
-
-#recent-posts>.recent-post-item>.recent-post-info>.content {
-    opacity: 0;
-    line-height: .7;
-    transition: all .3s;
-    bottom: 0
-}
 /* 3.首页文章卡片的图片样式 */
 #recent-posts>.recent-post-item .post_cover img.post_bg:hover {
     transform: none
