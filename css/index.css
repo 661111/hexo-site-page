@@ -8182,7 +8182,7 @@ blockquote.pullquote.right {
     --mj-theme: #128adadb;
     --mj-secondbg: #ededed;
     --mj-card-border: #e3e8f7;
-    --style-border: 2px solid rgba(0, 255, 255, 0.6);
+    --mj-style-border: 2px solid rgba(0, 255, 255, 0.6);
     --anchor-border: 1px solid rgba(21, 158, 208, 0.8);
     --style-hover-border: 2px solid var(--mj-theme)
 }
@@ -10730,7 +10730,7 @@ a.categoryButton:hover {
 /* 4.首页分类条 */
 .layout #recent-posts .home-catalog-bar {
     background: var(--mj-card-bg);
-    border: var(--style-border);
+    border: var(--mj-style-border);
     margin-top: 12px;
     border-radius: 11px !important;
     transition: .3s;
